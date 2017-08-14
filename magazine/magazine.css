@@ -1,0 +1,45 @@
+p   {
+    font-family:Times;
+    }
+    
+h1  {
+    font-family:Baskerville;
+    text-align:center;
+    color:  #0e3a6c;
+    border-bottom:2px solid #0e3a6c;
+    }
+    
+h2  {
+    background-color:#0b4a94;
+    color:white;
+    width:80%;
+    }
+    
+a   {
+    color:white;
+    }
+article {
+        background-color:#3dcaf3;
+        border: 2px solid #0e3a6c;
+        width:250px;
+        height:270px;
+        padding: 5px;
+        float: left;
+        margin: 5px;
+        }
+img     {
+        display: inline-block;
+        width:100px;
+        height:100px;
+        float: left;
+        margin: 5px;
+        }
+.imgdiv  {
+         background-color:#3dcaf3;
+         border: 2px solid #0e3a6c;
+         width:250px;
+         height:270px;
+         padding: 5px;
+         float: left;
+         margin: 5px;
+        }
