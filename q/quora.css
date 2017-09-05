@@ -1,0 +1,115 @@
+#logo{
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	width:100px;
+	height:100px;
+	}
+
+.headbar{
+	padding:10px;
+	margin:5px;	/*PAGE BORDER*/
+	border: 5px;
+}
+
+#menubar{
+	border-bottom:solid 2px #b50505;
+	background-color: #edbdbd;
+	/*border-style:groove;*/
+	padding: 5px;
+	margin:10px 5px 5px 5px;
+	
+}
+
+
+.navlinks{
+	font-family:"Georgia";
+	font-size:25px;
+	color:#800000;
+	font-weight:bold;
+	margin:10px 50px 10px 50px;
+	padding:10px;
+	}
+
+.questionHeading{
+	font-weight:bold;
+	font-size: 20px;
+	font-family:"Verdana";
+	color:black;
+}
+
+.user{
+	height:50px;
+	width:50px;
+	padding: 5px;
+}
+
+#mypic{
+	margin-top:-10px;	
+}
+
+#me{
+	float:right;
+	border: solid 0.5px black;
+	border-radius:40px;
+	padding: 3px;
+	margin-top:-20px;
+}
+
+.trendingTopics{
+	border: solid 2px #ba1414;
+	box-shadow:10px 10px 5px #888888;
+	padding: 5px;
+	margin: 10px;
+	color:black;
+	font-size:22px;
+	float:right;
+}
+
+#search{
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+    
+}
+
+#searchbar{
+	width:300px;
+	height:20px;
+	margin-left:150px;
+	border-style: inset;
+	/*background-image:url("search.png");*/
+}
+
+.question{
+	margin:20px 20px 20px 30px;
+	padding:20px;
+	border: 2px solid #ba1414;
+	box-shadow:10px 10px 5px #888888;
+	width:70%;
+}
+
+.questionHeading{
+	margin-top:-200px;
+}
+
+.button {
+               /* position:relative;*/
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid white;
+                background-color:#ba1414;
+                color:#fafafa;
+}
+/*.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}*/
+
+.headbar{
+	background:#edb6b6;
+}
+
+.adside{
+	margin-top:-580px;
+}
