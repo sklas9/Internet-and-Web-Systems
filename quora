@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+	<title>	Quora </title>
+	<link rel="stylesheet" type="text/css" href="quora.css"></link>
+</head>
+
+<body>
+<nav >
+	<ul class="headbar">
+	<img id="logo" src="quora.png">
+	</br></br>
+	<form id="search">
+	  <input id="searchbar" type="text" name="search" placeholder="Search Quora">
+	  <input class="button" type="button" value="Search">
+	<a class="navlinks" href="#">Login</a>
+	<a class="navlinks" href="#">Signup</a>
+	<a id="me" href="#"><img class="user" src="face.png"></a>
+	
+	</form>
+	
+	</br></br>
+	</ul>
+</nav>
+<nav id="menubar">
+	<ul id="header-menubar">
+	<a class="navlinks" href="#">Home</a>
+	<a class="navlinks"  href="#">Answer</a>
+	<a class="navlinks"  href="#">Top Stories</a>
+	<a class="navlinks"  href="#">New Questions</a>
+	<a class="navlinks"  href="#">Notifications</a>
+	</ul>
+</nav>
+
+<section>
+
+	<article class="question"> 
+	<img class="user" src="face.png">
+	<a class="questionHeading" href="#">What is your bucket list</a>
+	<p class="ans">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+	</p>
+	</article>
+
+	<article class="question">
+	<img class="user" src="face.png">
+	<a class="questionHeading" href="#">Best hill station near Delhi</a>
+	<p class="ans">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+	</p>
+	</article>
+
+	<article class="question">
+	<img class="user" src="face.png">
+	<a class="questionHeading" href="#">Which are the top 10 Tech companies for Women</a>
+	<p class="ans">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old
+	</p>
+	</article>
+
+<section>
+
+
+
+<aside class="adside">
+	
+	<ul class="trendingTopics">
+	<p>Trending Topics to follow</p>
+	<a class="trendingTopics" href="#">Mindfullness</a></br>
+	<a class="trendingTopics" href="#">Home Decor</a></br>
+	<a class="trendingTopics" href="#">Psychology</a></br>
+	</ul>
+</aside>
+<footer>
+</footer>
+
+</body>
+
