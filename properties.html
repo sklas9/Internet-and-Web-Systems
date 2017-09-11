@@ -2,6 +2,9 @@
 <html>
 
 <head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+
 	<style>
 		body{
 			background-color:white;
@@ -9,12 +12,18 @@
 		h1{
 			color:darkblue;
 			text-align:center;
+			font-family: "Allerta Stencil", Sans-serif;
+
 		}
 		.content{
-			margin:30px;
+			margin:25px;
+			padding: 7px;
 			border:2px solid darkblue;
 		}
-		
+		h4{
+		    font-family: "Lobster", serif;
+		    font-size: 20px;
+		}
 	</style>
 </head>
 
@@ -25,7 +34,7 @@
 	<ul>
 		<li>background-color: color name/hex value/rgb value</li>
 		<li>background-image: url("path to image")</li>
-		<li>background-repeat: no-repeat<li>
+		<li>background-repeat: no-repeat</li>
 	</ul>
 	</section>
 	<br>
@@ -36,7 +45,7 @@
 		<li>breadth: specify breadth in pixels or percentage</li>
 		<li>border: specify style(dotted, solid etc)| width| color</li>
 		<li>padding: specify the gap between the content and the html element border</li>
-		<li>margin: specify the gap between different html elements</li>
+		<li>margin: specify the gap between different html elements, as margin-top/-bottom/-right/-left</li>
 	</ul>
 	</section>
 	<br>
@@ -45,12 +54,29 @@
 	<ul>
 		<li>color: color name/hex value/rgb value</li>
 		<li>font-size: specify size in pixels or </li>
-		<li>border: specify style(dotted, solid etc)| width| color</li>
-		<li>padding: specify the gap between the content and the html element border</li>
-		<li>margin: specify the gap between different html elements</li>
+		<li>font-family: specify multiple font names to select the first one available from the list</li>
+		<li>font-style: italic/ normal/ oblique</li>
+		
 	</ul>
 	</section>
 	
+	<section class="content">
+	<h4>Text</h4>
+	<ul>
+		<li>text-align: specify alignment of text in the lement, like right/left/center</li>
+		<li>text-transform: specify case sensitivity of text, like uppercase/ lowercase </li>
+		<li>letter-spacing: specify spacing in pixels</li>
+		<li>line-height: specify line spacing in pixels</li>
+		
+	</ul>
+	</section>
+	
+	<section class="content">
+	<h4>Float</h4>
+	<ul>
+	    <li>float: left/right</li>
+	    <li>float is different from align as align will justify the content in the element, whereas float justifies the element itself</li>
+	</ul>
+	</section>
 </body>
-
 </html>
