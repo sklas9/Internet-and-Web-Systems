@@ -113,3 +113,8 @@
 .adside{
 	margin-top:-580px;
 }
+#map {
+  height: 400px;
+  padding-left: 50px;
+  width: 90%;
+ }
