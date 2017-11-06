@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Provision Store</title>
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Crimson+Text" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+
+
+	<style>
+	body {
+		font-family: 'Droid Serif', serif;/*'Pacifico', sans-serif;*/
+	}
+	h1{
+		font-family:'Bree Serif';
+		font-size: 40px;
+		text-align:center;
+	}
+	figure{
+		display: inline-block;
+		padding: 20px;
+	}
+	button{
+		font-family:'Bree Serif';
+		margin: 10px;
+	}
+	#putimg{
+		display:inline-block;
+		position: relative;
+	}
+	#button1{
+		position:absolute;
+		bottom:20%;
+		right:50%
+	}
+	#cartimg{
+	 height: auto;
+	 width: auto;
+	 max-width: 50px;
+	 max-height: 50px;
+	 float: right;
+	 padding: 5px;
+	}
+	#cartfig{
+		font-family:'Bree Serif';
+		float: right;
+	  padding:10px;
+	}
+
+	</style>
+
+	<script type="text/javascript">
+		function toiletriesImg(){
+			document.getElementById("t1").src = "toiletries.jpg";
+			document.getElementById("t2").src = "toiletries.jpg";
+			document.getElementById("t3").src = "toiletries.jpg";
+			document.getElementById("t4").src = "toiletries.jpg";
+			document.getElementById("t5").src = "toiletries.jpg";
+			document.getElementById("fc1").innerHTML = "Dove Beauty Soap";
+			document.getElementById("fc2").innerHTML = "Harpic Toilet Cleaner";
+			document.getElementById("fc3").innerHTML = "Pantene Anti-Hairfall Shampoo";
+			document.getElementById("fc4").innerHTML = "Johnsons Baby Soap";
+			document.getElementById("fc5").innerHTML = "Himalya Face Pack";
+		}
+		function groceriesImg(){
+			document.getElementById("g1").src = "groceries.jpg";
+			document.getElementById("g2").src = "groceries.jpg";
+			document.getElementById("g3").src = "groceries.jpg";
+			document.getElementById("g4").src = "groceries.jpg";
+			document.getElementById("g5").src = "groceries.jpg";
+			document.getElementById("gc1").innerHTML = "Sugar";
+			document.getElementById("gc2").innerHTML = "Tomatoes";
+			document.getElementById("gc3").innerHTML = "Arhar Dal";
+			document.getElementById("gc4").innerHTML = "Chana Dal";
+			document.getElementById("gc5").innerHTML = "Egg";
+		}
+		function beveragesImg(){
+			document.getElementById("b1").src = "beverages.jpg";
+			document.getElementById("b2").src = "beverages.jpg";
+			document.getElementById("b3").src = "beverages.jpg";
+			document.getElementById("b4").src = "beverages.jpg";
+			document.getElementById("b5").src = "beverages.jpg";
+			document.getElementById("bc1").innerHTML = "Coke";
+			document.getElementById("bc2").innerHTML = "Soya milk";
+			document.getElementById("bc3").innerHTML = "7 Up";
+			document.getElementById("bc4").innerHTML = "Tropicana Juice";
+			document.getElementById("bc5").innerHTML = "Red Bull";
+		}
+		function bakeryImg(){
+			document.getElementById("bk1").src = "biscuits.jpg";
+			document.getElementById("bk2").src = "biscuits.jpg";
+			document.getElementById("bk3").src = "biscuits.jpg";
+			document.getElementById("bk4").src = "biscuits.jpg";
+			document.getElementById("bk5").src = "biscuits.jpg";
+			document.getElementById("bkc1").innerHTML = "Monaco Biscuit";
+			document.getElementById("bkc2").innerHTML = "Bourbon Biscuit";
+			document.getElementById("bkc3").innerHTML = "Britania Cake";
+			document.getElementById("bkc4").innerHTML = "Parle-G Biscuit";
+			document.getElementById("bkc5").innerHTML = "Nutri Choice Digestive Biscuit";
+		}
+		function spicesImg(){
+			document.getElementById("s1").src = "spices.jpg";
+			document.getElementById("s2").src = "spices.jpg";
+			document.getElementById("s3").src = "spices.jpg";
+			document.getElementById("s4").src = "spices.jpg";
+			document.getElementById("s5").src = "spices.jpg";
+			document.getElementById("sc1").innerHTML = "Shahi Paneer Masala";
+			document.getElementById("sc2").innerHTML = "Haldi";
+			document.getElementById("sc3").innerHTML = "Biryani Masala";
+			document.getElementById("sc4").innerHTML = "Lal Mirch";
+			document.getElementById("sc5").innerHTML = "Pepper";
+		}
+
+		function addCat(){
+			var form = document.getElementById("newCat").children;
+			var catName = form[0].value;
+			document.getElementById("showDiv1").style.display = "";
+			document.getElementById("btnName1").innerHTML = catName;
+		}
+		function newCatImg(){
+			var form = document.getElementById("newCat").children;
+			var n1 = form[2].value;
+			var n2 = form[3].value;
+			document.getElementById("n1").src = "flipkart.jpg";
+			document.getElementById("nc1").innerHTML = n1;
+			document.getElementById("n2").src = "flipkart.jpg";
+			document.getElementById("nc2").innerHTML = n2;
+		}
+	</script>
+
+</head>
+
+<body>
+
+	<div class="container">
+  		<h1>Provisional Store</h1>
+  		<p style="text-align:center;">Anything and Everything you need<br>Find it here</p>
+		<figure id="cartfig">
+			<img id="cartimg" src="cart.png"/>
+			<figcaption><a href="#">Shopping Cart</a></figcaption>
+		</figure>
+	</br></br></br></br></br>
+		<div class="row text-center" style="background-color:lavender;">
+		  <div class="col-md-8">
+		 	<!--button id="btnToiletries" class="btn btn-primary" onclick="toiletriesImg()">TOILETRIES</button>-->
+			<button data-toggle="collapse" data-target="#timgs" id="btnToiletries" class="btn btn-primary" onclick="toiletriesImg()">TOILETRIES</button>
+			  <br />
+			 <figure id="putimg">
+			  	<img id="t1" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+				  <figcaption id="fc1"></figcaption>
+			  </figure>
+			  <figure id="putimg">
+			  	<img id="t2" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="fc2"></figcaption>
+			  </figure>
+			  <figure id="putimg">
+			  	<img id="t3" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="fc3"></figcaption>
+			  </figure>
+			  <figure id="putimg">
+			  	<img id="t4" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="fc4"></figcaption>
+			  </figure>
+			  <figure id="putimg">
+				 	<img id="t5" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="fc5"></figcaption>
+			  </figure>
+
+		  </div> <!--for col-md -->
+
+	 	</div>  <!--for row text center-->
+
+		<div class="row text-center" style="background-color:lavenderblush";>
+		  <div class="col-md-8">
+			<button data-toggle="collapse" data-target="#demo" id="btnGroceries" class="btn btn-primary" onclick="groceriesImg()">GROCERY</button>
+			<br />
+			<figure id="putimg">
+			  	<img id="g1" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="gc1"></figcaption>
+			 </figure>
+			 <figure id="putimg">
+			  	<img id="g2" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="gc2"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  	<img id="g3" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="gc3"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  	<img id="g4" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="gc4"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  	<img id="g5" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="gc5"></figcaption>
+			 </figure>
+		  </div>
+
+		</div>
+
+		 <div class="row text-center" style="background-color:lavender";>
+		  <div class="col-md-8">
+			<button data-toggle="collapse" data-target="#demo" id="btnBeverages" class="btn btn-primary" onclick="beveragesImg()">BEVERAGES</button>
+			<br />
+			<figure id="putimg">
+			  	<img id="b1" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="bc1"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  	<img id="b2" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="bc2"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  	<img id="b3" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="bc3"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  	<img id="b4" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="bc4"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  	<img id="b5" src="" class="img-circle" />
+					<input type="button" id="button1" value="ADD">
+					<figcaption id="bc5"></figcaption>
+			 </figure>
+
+		  </div>
+		 </div>
+
+		 <div class="row text-center" style="background-color:lavenderblush";>
+		  <div class="col-md-8">
+			<button data-toggle="collapse" data-target="#demo" id="btnBakery" class="btn btn-primary" onclick="bakeryImg()">BAKERY</button>
+			<br />
+			<figure id="putimg">
+			  <img id="bk1" src="" class="img-circle" />
+				<input type="button" id="button1" value="ADD">
+				<figcaption id="bkc1"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  <img id="bk2" src="" class="img-circle" />
+				<input type="button" id="button1" value="ADD">
+				<figcaption id="bkc2"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  <img id="bk3" src="" class="img-circle" />
+				<input type="button" id="button1" value="ADD">
+				<figcaption id="bkc3"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  <img id="bk4" src="" class="img-circle" />
+				<input type="button" id="button1" value="ADD">
+				<figcaption id="bkc4"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  <img id="bk5" src="" class="img-circle" />
+				<input type="button" id="button1" value="ADD">
+				<figcaption id="bkc5"></figcaption>
+			 </figure>
+
+		  </div>
+		 </div>
+
+		 <div class="row text-center" style="background-color:lavender;">
+		  <div class="col-md-8">
+			<button data-toggle="collapse" data-target="#demo" id="btnSpices" class="btn btn-primary" onclick="spicesImg()">SPICES</button>
+			<br />
+			<figure id="putimg">
+			  <img id="s1" src="" class="img-circle" />
+				<input type="button" id="button1" value="ADD">
+				<figcaption id="sc1"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  <img id="s2" src="" class="img-circle" />
+				<input type="button" id="button1" value="ADD">
+				<figcaption id="sc2"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  <img id="s3" src="" class="img-circle" />
+				<input type="button" id="button1" value="ADD">
+				<figcaption id="sc3"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  <img id="s4" src="" class="img-circle" />
+				<input type="button" id="button1" value="ADD">
+				<figcaption id="sc4"></figcaption>
+			 </figure>
+			<figure id="putimg">
+			  <img id="s5" src="" class="img-circle" />
+				<input type="button" id="button1" value="ADD">
+				<figcaption id="sc5"></figcaption>
+			 </figure>
+
+		  </div>
+		 </div>
+
+		 <br>
+		 <!--<form action="#">
+		  Name:
+		  <input type="text" name="catName" value="Beauty Products">
+		  <br>
+		  Number of Items:
+		  <input type="text" name="catItems" value="1">
+		  <br><br>
+		  <input type="submit" value="Submit">
+		</form>-->
+		<section id="dispnew1">
+			<div id="showDiv1" class="row text-center" style="display:none;" style="background-color:lavenderblush;">
+ 		  <div class="col-md-8">
+ 			<button id="btnName1" data-toggle="collapse" data-target="#demo" id="btnBeauty" class="btn btn-primary" onclick="newCatImg()"></button>
+ 			<br />
+ 			<figure id="putimg">
+ 			  <img id="n1" src="" class="img-circle"/>
+ 				<input type="button" id="button1" value="ADD">
+ 				<figcaption id="nc1"></figcaption>
+ 			 </figure>
+ 			<figure id="putimg">
+ 			  <img id="n2" src="" class="img-circle"/>
+ 				<input type="button" id="button1" value="ADD">
+ 				<figcaption id="nc2"></figcaption>
+ 			 </figure>
+
+ 		  </div>
+ 		 </div>
+		</section>
+
+		<section id="dispnew2">
+			<div id="showDiv2" class="row text-center" style="display:none;" style="background-color:lavenderblush;">
+ 		  <div class="col-md-8">
+ 			<button id="btnName2" data-toggle="collapse" data-target="#demo" id="btnBeauty" class="btn btn-primary" onclick="newCatImg()"></button>
+ 			<br />
+ 			<figure id="putimg">
+ 			  <img id="n1" src="" class="img-circle" />
+ 				<input type="button" id="button1" value="ADD">
+ 				<figcaption id="nc1"></figcaption>
+ 			 </figure>
+ 			<figure id="putimg">
+ 			  <img id="n2" src="" class="img-circle" />
+ 				<input type="button" id="button1" value="ADD">
+ 				<figcaption id="nc2"></figcaption>
+ 			 </figure>
+
+ 		  </div>
+ 		 </div>
+		</section>
+
+		<section id="newCat" class="fld">
+			<input type="text" placeholder="Beauty Products">
+			<br>
+			<input type="text" placeholder="Name of item">
+			<input type="text" placeholder="Name of item">
+			<button onclick="addCat()">Add Category</button>
+		</section>
+
+
+	</div>
+
+</body>
+
+<script
+
+</html>
