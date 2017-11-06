@@ -2,6 +2,19 @@
 <head>
 	<title>	Quora </title>
 	<link rel="stylesheet" type="text/css" href="quora.css"></link>
+	<script type="javascript">
+	  function GMap() {
+	   var india = {lat: 20.5937, lng: 78.9629};
+	   var map = new google.maps.Map(document.getElementById('map'), {
+	     zoom: 4,
+	     center: india
+	   });
+	   var marker = new google.maps.Marker({
+	     position: india,
+	     map: map
+	   });
+	 }
+	  </script>
 </head>
 
 <body>
